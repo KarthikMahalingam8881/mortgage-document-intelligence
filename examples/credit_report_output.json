@@ -1,0 +1,117 @@
+{
+  "filename": "Credit Report.pdf",
+  "processing": {
+    "ocr_used": false,
+    "pages": 2,
+    "text_length": 1542,
+    "processing_time_seconds": 13.02
+  },
+  "analysis": {
+    "document_type": "Credit Report",
+    "confidence": 0.95,
+    "extracted_data": {
+      "report_date": "March 10, 2025",
+      "name": "Nandita",
+      "ssn_last_4_digits": "1234",
+      "date_of_birth": "January 15, 1985",
+      "current_address": "123 Maple Street, Springfield, IL, 62701",
+      "credit_scores": [
+        {
+          "bureau": "Experian",
+          "score": 740,
+          "rating": "Excellent"
+        },
+        {
+          "bureau": "Equifax",
+          "score": 735,
+          "rating": "Very Good"
+        },
+        {
+          "bureau": "TransUnion",
+          "score": 745,
+          "rating": "Excellent"
+        }
+      ],
+      "credit_accounts": [
+        {
+          "type": "Credit Card",
+          "lender": "Chase Bank",
+          "balance": "$1,500",
+          "credit_limit": "$5,000",
+          "status": "Open, Good Standing"
+        },
+        {
+          "type": "Credit Card",
+          "lender": "Capital One",
+          "balance": "$600",
+          "credit_limit": "$3,000",
+          "status": "Open, Good Standing"
+        },
+        {
+          "type": "Auto Loan",
+          "lender": "AutoBank",
+          "balance": "$12,500",
+          "credit_limit": "N/A",
+          "status": "Open, Current"
+        },
+        {
+          "type": "Mortgage",
+          "lender": "HomeLoans Inc.",
+          "balance": "$150,000",
+          "credit_limit": "N/A",
+          "status": "Open, Current"
+        },
+        {
+          "type": "Student Loan",
+          "lender": "FedLoan Servicing",
+          "balance": "$20,000",
+          "credit_limit": "N/A",
+          "status": "Open, Current"
+        }
+      ],
+      "total_credit_limit": "$8,000",
+      "total_used_credit": "$2,100",
+      "credit_utilization_ratio": "26.25%",
+      "on_time_payment_history": "99%",
+      "late_payments_last_2_years": "0",
+      "accounts_in_collections": "None",
+      "hard_inquiries_last_12_months": [
+        {
+          "date": "01/15/2025",
+          "lender": "Bank of America",
+          "purpose": "Credit Card Application"
+        },
+        {
+          "date": "09/20/2024",
+          "lender": "Wells Fargo",
+          "purpose": "Mortgage Pre-Approval"
+        }
+      ],
+      "public_records": {
+        "bankruptcies": "None",
+        "liens": "None",
+        "foreclosures": "None"
+      },
+      "debt_to_income_ratio_status": "healthy level"
+    },
+    "financial_health": "Excellent",
+    "strengths": [
+      "Consistently high credit scores across all bureaus (735-745, mostly 'Excellent').",
+      "Excellent on-time payment history (99%) with no late payments in the last 2 years.",
+      "Very low credit utilization ratio (26.25%), well below the recommended 30% threshold.",
+      "No derogatory public records (bankruptcies, liens, foreclosures).",
+      "No accounts in collections.",
+      "Existing mortgage tradeline demonstrates responsible management of a significant housing debt.",
+      "Report explicitly states a 'healthy level' for debt-to-income ratio."
+    ],
+    "concerns": [
+      "Two hard inquiries within the last 12 months, including one for a mortgage pre-approval, which could slightly impact the credit score temporarily, though given the high scores, the impact is minimal."
+    ],
+    "missing_information": [
+      "Specific Debt-to-Income (DTI) ratio is not provided (only its status as 'healthy level'). Actual DTI would require income verification.",
+      "Length of credit history is not explicitly stated, although multiple open accounts suggest a reasonable history."
+    ],
+    "mortgage_assessment": "Nandita presents an exceptionally strong credit profile for a mortgage application. Her credit scores are well within the 'Excellent' range, indicating a very low-risk borrower. The combination of high on-time payment history, low credit utilization, absence of any derogatory marks (late payments, collections, public records), and existing mortgage experience points to a highly responsible financial manager. The healthy debt-to-income ratio, as stated, further reinforces her capacity to handle additional debt. The recent mortgage pre-approval inquiry suggests active pursuit of a new mortgage, and this credit report strongly supports a favorable lending decision.",
+    "executive_summary": "The credit report for Nandita reflects an 'Excellent' financial health with robust credit scores ranging from 735 to 745. Key strengths include a 99% on-time payment history, low credit utilization of 26.25%, and a complete absence of negative records such as late payments, collections, bankruptcies, liens, or foreclosures. She currently manages an existing mortgage, auto loan, student loan, and multiple credit cards responsibly. While there are two recent hard inquiries, her overall credit profile is outstanding. Nandita is an ideal candidate for mortgage lending, demonstrating a strong capacity and willingness to meet financial obligations."
+  }
+}

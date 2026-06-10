@@ -1,0 +1,20 @@
+{
+  "filename": "image-based-pdf-sample.pdf",
+  "processing": {
+    "ocr_used": true,
+    "pages": 1,
+    "text_length": 1043,
+    "processing_time_seconds": 5.39
+  },
+  "analysis": {
+    "document_type": "PDF Format Description",
+    "confidence": 0,
+    "extracted_data": {},
+    "financial_health": "N/A - Document is not a financial statement or mortgage application.",
+    "strengths": [],
+    "concerns": [],
+    "missing_information": [],
+    "mortgage_assessment": "This document is not a mortgage-related document. It describes the characteristics and handling of 'Image-based PDFs' and offers advice on requesting searchable formats from a U.S. Attorney's Office. Therefore, no mortgage assessment can be performed.",
+    "executive_summary": "The provided text is a description of 'Image-based PDFs' (also known as image-only PDFs) and does not contain any mortgage-related information, financial data, or applicant details. It explains how these PDFs are created (scanning, photos, screenshots), their lack of a searchable text layer, and provides guidance on how to request a searchable, true, text-based PDF format from a U.S. Attorney’s Office when encountering such documents during discovery. No mortgage document analysis can be conducted based on this input."
+  }
+}

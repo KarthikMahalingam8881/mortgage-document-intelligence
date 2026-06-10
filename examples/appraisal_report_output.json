@@ -1,0 +1,90 @@
+{
+  "filename": "Appraisal.pdf",
+  "processing": {
+    "ocr_used": false,
+    "pages": 2,
+    "text_length": 1457,
+    "processing_time_seconds": 20.2
+  },
+  "analysis": {
+    "document_type": "Property Appraisal Report",
+    "confidence": 0.98,
+    "extracted_data": {
+      "appraisal_date": "March 10, 2025",
+      "property_address": "123 Maple Street, Springfield, IL, 62701",
+      "owner": "Nandita",
+      "property_details": {
+        "property_type": "Single-Family Home",
+        "year_built": 2010,
+        "total_square_footage": "2,400 sqft",
+        "number_of_bedrooms": 3,
+        "number_of_bathrooms": 2.5,
+        "lot_size": "0.5 acres",
+        "garage": "2-car attached"
+      },
+      "appraisal_summary": {
+        "market_value": "$425,000",
+        "comparable_sales": [
+          {
+            "value": "$410,000",
+            "comment": "Similar property, 0.3 miles away"
+          },
+          {
+            "value": "$430,000",
+            "comment": "Recently renovated, 0.5 miles away"
+          },
+          {
+            "value": "$420,000",
+            "comment": "Slightly larger lot size"
+          }
+        ],
+        "estimated_replacement_cost": "$390,000",
+        "final_appraised_value": "$425,000"
+      },
+      "condition_features": {
+        "foundation": "Concrete slab",
+        "exterior": "Brick and vinyl siding",
+        "roof": "Asphalt shingles (Replaced in 2020)",
+        "hvac_system": "Central heating & cooling (Installed 2018)",
+        "flooring": "Hardwood in living areas, carpet in bedrooms",
+        "recent_renovations": [
+          "Kitchen remodeled (2023)",
+          "new hardwood flooring (2022)"
+        ]
+      },
+      "zoning_compliance": {
+        "zoning_classification": "R-1 (Single-Family Residential)",
+        "compliance_with_local_codes": "Yes"
+      },
+      "appraiser_information": {
+        "appraiser_name": "Jane Smith",
+        "appraisal_company": "Springfield Valuations Inc.",
+        "license_number": "IL-987654321",
+        "contact": {
+          "phone": "(555) 123-4567",
+          "email": "janesmith@springfieldvaluations.com"
+        }
+      }
+    },
+    "financial_health": "Good",
+    "strengths": [
+      "Strong final appraised value of $425,000, well-supported by comparable sales.",
+      "Recent and significant renovations (kitchen 2023, hardwood 2022) indicate a well-maintained and updated property.",
+      "Major systems (roof 2020, HVAC 2018) are relatively new, reducing immediate maintenance concerns.",
+      "Standard and desirable property type (Single-Family Home) and zoning (R-1).",
+      "Compliance with local codes confirmed."
+    ],
+    "concerns": [
+      "No immediate concerns identified within the scope of this appraisal report."
+    ],
+    "missing_information": [
+      "Borrower's name and financial information (e.g., income, credit score).",
+      "Loan amount, term, interest rate, and other mortgage-specific details.",
+      "Information regarding existing liens, encumbrances, or property taxes.",
+      "Details on property insurance.",
+      "Environmental hazard assessment (typically covered in separate reports)."
+    ],
+    "mortgage_assessment": "This appraisal report provides a solid foundation for a mortgage application. The property at 123 Maple Street has a strong market value of $425,000, indicating ample collateral for a mortgage loan with a reasonable Loan-to-Value (LTV) ratio. The recent renovations and updated key systems reduce lender risk associated with property condition and enhance marketability. The supporting comparable sales reinforce the valuation, making it a favorable asset for mortgage financing.",
+    "executive_summary": "The Property Appraisal Report for 123 Maple Street, Springfield, IL, establishes a robust final appraised value of $425,000. This 2010-built single-family home benefits from recent, significant upgrades including a remodeled kitchen (2023) and new hardwood flooring (2022), alongside updated roofing (2020) and HVAC (2018). The valuation is well-supported by comparable sales and confirms compliance with local zoning. This property is presented as a strong, well-maintained asset, offering excellent collateral for mortgage lending, with no notable concerns arising from the appraisal itself."
+  }
+}
