@@ -28,11 +28,11 @@ Examples are available in the `/examples` folder.
 
 ### Swagger UI
 
-![Swagger UI](screenshots/Screenshot 1.png)
+![Swagger UI](https://github.com/KarthikMahalingam8881/mortgage-document-intelligence/blob/main/screenshots/Screenshot%201.png)
 
 ### Sample Response
 
-![Sample Response](screenshots/Screenshot 6.png)
+![Sample Response](https://github.com/KarthikMahalingam8881/mortgage-document-intelligence/blob/main/screenshots/Screenshot%206.png)
 
 ---
 
