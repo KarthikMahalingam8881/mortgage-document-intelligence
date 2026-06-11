@@ -46,20 +46,36 @@ The goal is to understand mortgage-related documents and produce actionable insi
 
 ## Architecture
 
-PDF Upload
-↓
+
+```text
+POST /analyze
+      │
+      ▼
+ PDF Upload
+      │
+      ▼
 PyMuPDF Extraction
-↓
-Text Available?
-↓
-Yes → Continue
-No → OCR (Tesseract)
-↓
-Gemini 2.5 Flash Analysis
-↓
+      │
+      ▼
+Enough Text?
+   │       │
+  Yes      No
+   │        │
+   │        ▼
+   │   OCR Fallback
+   │  (Tesseract)
+   │        │
+   └────────┘
+      │
+      ▼
+ Gemini 2.5 Flash
+      │
+      ▼
 Pydantic Validation
-↓
-Structured JSON Response
+      │
+      ▼
+ Structured JSON
+```
 
 ---
 
@@ -104,7 +120,7 @@ Returns:
 ---
 
 ## Sample Response
-
+```text
 {
   "filename": "Appraisal.pdf",
   "processing": {
@@ -123,8 +139,8 @@ Returns:
     "mortgage_assessment": "Strong collateral asset"
   }
 }
-
-Full outputs can be found in the examples folder.
+```
+### Full outputs can be found in the examples folder.
 ---
 
 ## Running with Docker
